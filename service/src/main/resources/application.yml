@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: user_service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10000/eureka/
+grpc:
+  server:
+    port: 0
+server:
+  port: 0

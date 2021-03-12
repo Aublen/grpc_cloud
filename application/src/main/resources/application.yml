@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: user_application
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10000/eureka/
+grpc:
+  client:
+    user_service:
+      negotiation-type: plaintext
